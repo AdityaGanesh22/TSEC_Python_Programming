@@ -8,9 +8,8 @@ Welcome to your Python assignments repository! Please read these instructions ca
 1. Go to the GitHub repository link shared with you.
 2. Click on the green **Code** button and select **Download ZIP**.
 3. Extract the ZIP file to a folder on your computer.
-4. Each assignment will have four files:
+4. Each assignment will have three files:
    - `student_code_X_Y.py` → where you write your solution
-   - `solutions_X_Y.py` → reference solution (for instructor use only)
    - `autograder_X_Y.py` → script to test and grade your code
    - `README.txt` → instructions specific to that assignment
 
