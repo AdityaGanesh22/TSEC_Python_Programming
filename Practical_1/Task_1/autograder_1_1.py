@@ -67,6 +67,7 @@ if __name__ == "__main__":
     print(f"Final Score: {result['score']} / {result['total']}")
     print("Feedback:\n", result["feedback"])
 
-    assignment_tag = "Assignment_1_1"
-    unique_id = generate_unique_id(assignment_tag)
-    print("\nUnique ID:", unique_id)
+    if result['score'] == result['total']:
+        assignment_tag = "Assignment_1_1"
+        unique_id = generate_unique_id(assignment_tag)
+        print("\nToken: ", unique_id)

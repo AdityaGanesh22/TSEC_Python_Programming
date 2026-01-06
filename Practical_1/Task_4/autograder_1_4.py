@@ -58,6 +58,6 @@ if __name__ == "__main__":
     print(f"Final Score: {result['score']} / {result['total']}")
     print("Feedback:\n", result["feedback"])
 
-    unique_id = generate_unique_id("Assignment_1_4")
-    print("\nUnique ID:", unique_id)
-    print("Paste this ID into the Google Form/Excel sheet for verification.")
+    if result['score'] == result['total']:
+        unique_id = generate_unique_id("Assignment_1_4")
+        print("\nToken: ", unique_id)

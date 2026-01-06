@@ -25,9 +25,9 @@ This means that all the functions are imported from file `student_code_1_1.py`
 ## How to Run Autograder:
 1. Save your solution in `student_code_1_1.py`.
 2. Run the autograder with the command:
-       `python ./autograder_1_1.py`
+       `python .\autograder_1_1.py`
        or
-       `python3 ./autograder_1_1.py`
+       `python3 .\autograder_1_1.py`
 3. Check the output for your score and feedback.
 
 ### Notes:
