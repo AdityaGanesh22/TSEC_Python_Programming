@@ -3,6 +3,11 @@
 Welcome to your Python assignments repository! Please read these instructions carefully before starting. They apply to **all assignments** in this repository.
 
 ---
+Link to your submissions:
+
+https://docs.google.com/spreadsheets/d/1CfmAZJNW4V7j6d5GN5FzMRPAuqQq23RsmTRoy7qSXAM/edit?usp=sharing
+
+---
 
 ## 📥 Downloading the Files from GitHub
 1. Go to the GitHub repository link shared with you.
