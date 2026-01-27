@@ -6,3 +6,5 @@ def personalized_greeting(name: str) -> None:
     Example: "Hello, Aditya! Welcome to the Python course."
     """
     # TODO: implement
+    greeting = f"Hello, {name}! Welcome to the Python course."
+    print(greeting)
