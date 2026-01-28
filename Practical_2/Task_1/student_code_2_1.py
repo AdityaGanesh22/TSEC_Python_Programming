@@ -37,7 +37,7 @@ def remove_task_tuple(task_list: list, task_name: str) -> list:
     # TODO: Remove a tuple by task_name
     pass
 
-def update_task_tuple(task_list: list, task_name: str, new_priority: int) -> list:
+def update_task_tuple(task_list: list, index: int, new_task_name: str, new_priority: int) -> list:
     # TODO: Update the priority of a tuple
     pass
 
