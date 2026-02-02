@@ -1,0 +1,4 @@
+The quick brown fox jumps over the lazy dog
+Python programming is fun and powerful
+Cat bat rat elephant tiger lion
+Three four five six seven eight nine ten
