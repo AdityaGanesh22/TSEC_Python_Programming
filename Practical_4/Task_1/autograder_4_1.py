@@ -10,7 +10,7 @@ import builtins
 
 def run_tests():
     try:
-        student_code = importlib.import_module("student_code_4_1")
+        student_code = importlib.import_module("solution_4_1")
         func = student_code.extract_words
     except Exception as e:
         return {"score": 0, "total": 0, "feedback": f"Error importing student code: {e}"}
@@ -65,7 +65,7 @@ def run_tests():
         output = captured_output.getvalue().strip().split("\n")
         sys.stdout = sys.__stdout__
 
-        expected = {"tiger", "three", "seven"}
+        expected = {'quick', 'brown', 'jumps', 'tiger', 'Three', 'seven', 'eight'}
         if expected.issubset(set(output)):
             feedback.append("✅ Correctly extracted 5-letter words")
             score += 10

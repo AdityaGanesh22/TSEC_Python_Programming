@@ -137,7 +137,7 @@ for i in range(10):   # error: out of range
 Debugging steps:
 - Print `i` before accessing.
 - Check length of list.
-- Adjust loop to range(len(numbers)).
+- Adjust loop to `range(len(numbers))`.
 
 ## Additional Notes
 
