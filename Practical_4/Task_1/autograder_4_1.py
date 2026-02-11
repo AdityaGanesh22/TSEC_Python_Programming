@@ -10,7 +10,7 @@ import builtins
 
 def run_tests():
     try:
-        student_code = importlib.import_module("solution_4_1")
+        student_code = importlib.import_module("student_code_4_1")
         func = student_code.extract_words
     except Exception as e:
         return {"score": 0, "total": 0, "feedback": f"Error importing student code: {e}"}
