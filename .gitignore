@@ -1,6 +1,6 @@
 # Ignore solution files
 solution_*.py
-
+solution_*.ipynb
 # Ignore Python cache
 __pycache__/
 *.pyc
