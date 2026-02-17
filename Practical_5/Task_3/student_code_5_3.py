@@ -14,4 +14,7 @@
 
 def divide_numbers(a, b):
     # TODO: Implement the function as per instructions above.
+    # log info with the following message as soon as you enter the function: "Function divide_numbers called"
+    # Upon successful division, log debug with the following message: "Division successful"
+    # log error with the following message: "Division by zero"
     pass
