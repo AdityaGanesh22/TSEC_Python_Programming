@@ -1,38 +1,26 @@
 # Practical 5 – Task 5: Scientific Debugging Techniques
 
 ## Objective
-Provide a Python program with multiple logic and runtime errors. Instruct students to apply scientific debugging techniques, such as binary search debugging, to identify and resolve the issues methodically.
+Provide a Python program with multiple logic and runtime errors. Students must apply scientific debugging techniques, such as binary search debugging, to identify and resolve the issues methodically.
 
 ## Instructions
-- Open `student_code_5_5.py`.
-- The function `buggy_program()` contains intentional errors:
-  1. Variable used before assignment.
-  2. Division by zero.
-  3. Loop going out of range.
-  4. Invalid type operation (string + integer).
-- Run the program and observe the errors.
-- Apply scientific debugging techniques:
-  - Isolate the problem area.
-  - Use print statements or logging to instrument the code.
-  - Hypothesize the cause of the error.
-  - Test fixes step by step.
-  - Iterate until the program runs correctly.
+- The provided code implements a binary search algorithm but contains errors.
+- Students should not rename the function binary_search.
+- Apply debugging techniques to:
+  - Trace variable values step by step.
+  - Narrow down the location of errors using binary search debugging.
+  - Fix logical mistakes and runtime issues.
+- The corrected function should return:
+  - The index of the target if found.
+  - -1 if the target is not found.
 
-## Example Debugging Approach
-- Start by commenting out sections of code to isolate where the error occurs.
-- Use binary search debugging: disable half the code, run the program, then narrow down.
-- Add print statements to check variable values before operations.
-- Correct each error methodically.
-
-## Transition from C to Python
-In C, debugging often requires gdb or IDE tools.  
-In Python, you can use pdb, IDE debuggers, or scientific debugging techniques with print/logging.
-
-## How to check your solution
-- Run `autograder_5_5.py`.
-- The autograder verifies that buggy_program exists.
-- Debugging must be demonstrated manually in class.
+## Example Debugging Strategy
+1. Insert print statements or use pdb to trace values of `left`, `right`, and `mid`.
+2. Check boundary conditions.
+3. Verify updates to `left` and `right` pointers.
+4. Ensure the return value matches the specification.
 
 ## Notes
-- Do not remove `buggy_program`; it is required for demonstration.
-- Submit your token and screenshot in the Excel sheet.
+- Do not remove or rename the function binary_search.
+- The autograder will test both cases: target present and target absent.
+- Focus on methodical debugging rather than guessing.

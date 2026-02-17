@@ -5,10 +5,7 @@ Demonstrate the use of a Python debugger (pdb or IDE debugger) on a sample progr
 
 ## Instructions
 - Open `student_code_5_4.py`.
-- The function `buggy_function()` contains intentional errors:
-  1. Variable used before assignment.
-  2. Division by zero.
-  3. Invalid type operation (string + integer).
+- The function `buggy_function()` contains intentional errors
 - Run the program with a debugger.
 - Use breakpoints and step through the code.
 - Inspect variable values at each step.
@@ -22,7 +19,10 @@ import pdb
 import student_code_5_4  
 pdb.run('student_code_5_4.buggy_function()')
 ```
-
+or directly from the terminal (recommended)
+```
+python3 -m pdb student_code_5_4.py
+```
 Common commands:
 - break buggy_function → set breakpoint
 - step → step into function
