@@ -12,22 +12,17 @@
 # - Identify and fix the errors using the debugger.
 
 def buggy_function():
-    # Intentional errors:
-    # 1. Variable 'x' is used before assignment.
-    # 2. Division by zero.
-    # 3. Incorrect type operation.
-    
     print("Starting buggy function...")
     
     # TODO: Use debugger to step through and inspect variables
-    result = x + 10   # Error: x not defined
+    result = x + 10
     
     y = 0
-    z = 5 / y         # Error: division by zero
+    z = 5 / y
     
     name = "Aditya"
     number = 10
-    combined = name + number   # Error: cannot add str and int
+    combined = name + number
     
     print("Result:", result)
     print("Combined:", combined)
