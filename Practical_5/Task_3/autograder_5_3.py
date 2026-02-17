@@ -21,7 +21,7 @@ def run_tests():
 
     # Capture logs
     log_stream = io.StringIO()
-    logging.basicConfig(stream=log_stream, level=logging.DEBUG)
+    logging.basicConfig(stream=log_stream, level=logging.DEBUG, force=True)
 
     # Test 1: Valid division
     try:
@@ -37,7 +37,7 @@ def run_tests():
 
     # Reset log stream
     log_stream = io.StringIO()
-    logging.basicConfig(stream=log_stream, level=logging.DEBUG)
+    logging.basicConfig(stream=log_stream, level=logging.DEBUG, force=True)
 
     # Test 2: Division by zero
     try:
